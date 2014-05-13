@@ -34,8 +34,10 @@ gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'capistrano', '2.15.5'
+gem 'capistrano'
 gem 'rvm-capistrano'
+gem 'capistrano-sidekiq'
+gem 'sidekiq'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
