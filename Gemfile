@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bunele edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -52,3 +52,5 @@ end
 
 gem 'pry-rails', :group => :development
 gem 'devise'
+gem "cucumber-rails", :group => :test, :require => false
+gem "capybara", :group => :test
