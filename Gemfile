@@ -42,3 +42,14 @@ gem 'sidekiq'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development, :test do
+    gem 'rspec-rails', '~> 2.0'
+    gem 'factory_girl_rails'
+    gem 'database_cleaner'
+end
+
+group :test do
+    gem 'shoulda-matchers'
+end
+
+gem 'pry-rails', :group => :development
