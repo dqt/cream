@@ -8,7 +8,7 @@ server "107.170.86.141", :web, :app, :db, primary: true
 set :application, "cream"
 set :user, "dougie"
 set :port, 1999
-set :deploy_to, "/home/#{user}/Src/#{application}"
+set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, true
 
