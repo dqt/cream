@@ -39,9 +39,6 @@ gem 'rvm-capistrano'
 gem 'capistrano-sidekiq'
 gem 'sidekiq'
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
-
 group :development, :test do
     gem 'rspec-rails', '~> 2.0'
     gem 'factory_girl_rails'
@@ -50,6 +47,8 @@ end
 
 group :test do
     gem 'shoulda-matchers'
+    gem 'email_spec'
 end
 
 gem 'pry-rails', :group => :development
+gem 'devise'
